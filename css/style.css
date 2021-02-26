@@ -1,0 +1,186 @@
+:body {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+body {
+    font-family: var(--main-font);
+    color: #757575;
+    ;
+}
+
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.address {
+    font-style: none;
+}
+
+.logo {
+    font-family: var(--secondary-font)
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    }
+
+/*===========Header================ */
+.navigation-link {
+    font-family: var(--main-font)
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+    color:#2196F3;
+}
+.contact-link {
+    font-family: var(--main-font)
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: #2196F3;
+}
+/*===========End Header================ */
+
+/*===========Hero================ */
+.hero-title {
+    font-family: var(--main-font)
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+.main-button {
+    font-family: var(--main-font)
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+/*===========End Hero================ */
+
+/*===========Bottom section================ */
+.portfolio-btn {
+    font-family: var(--main-font)
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: #212121;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
+/*===========End Bottom section================ */
+
+/*===========Advantages section================ */
+.advantage-name {
+    font-family: var(--main-font)
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.advantage-explanation {
+    font-family: var(--main-font)
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*===========End Advantages section================ */
+
+.body-title {
+    font-family: var(--main-font)
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+/*===========Our team================ */
+.team-mate {
+    font-family: var(--main-font)
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.job-position {
+    font-family: var(--main-font)
+    font-size: 16px;
+    line-height: 1,18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*===========Footer================ */
+.physical-adress {
+    font-family: var(--main-font)
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.mail-adress {
+    font-family: var(--main-font)
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.phone-number {
+    font-family: var(--main-font)
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/*===========End Footer================ */
+
+/*===========Work gallery================ */
+.project-name {
+    font-family: var(--main-font)
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.project-explanation {
+    font-family: var(--main-font)
+    font-size: 16px;
+    line-height: 1,87;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+/*===========Work gallery================ */
