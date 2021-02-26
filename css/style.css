@@ -79,7 +79,7 @@ body {
 }
 /*===========End Hero================ */
 
-/*===========Bottom section================ */
+/*===========Work gallery================ */
 .portfolio-btn {
     font-family: var(--main-font)
     font-weight: 500;
@@ -95,7 +95,22 @@ body {
     background-color: #2196F3;
     color:#FFFFFF;
 }
-/*===========End Bottom section================ */
+.project-name {
+    font-family: var(--main-font)
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.project-explanation {
+    font-family: var(--main-font)
+    font-size: 16px;
+    line-height: 1,87;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+/*===========Work gallery================ */
 
 /*===========Advantages section================ */
 .advantage-name {
@@ -167,20 +182,3 @@ body {
 }
 /*===========End Footer================ */
 
-/*===========Work gallery================ */
-.project-name {
-    font-family: var(--main-font)
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: #212121;
-}
-.project-explanation {
-    font-family: var(--main-font)
-    font-size: 16px;
-    line-height: 1,87;
-    letter-spacing: 0.03em;
-    color: #757575;
-    }
-/*===========Work gallery================ */
