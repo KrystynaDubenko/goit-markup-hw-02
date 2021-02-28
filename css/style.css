@@ -24,12 +24,12 @@ body {
     width: 145px;
     height: 31px;
     left: 215px;
-    font-family: var(--secondary-font)
+    font-family: var(--secondary-font);
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--focus-color )
+    color: var(--focus-color );
     }
 .logo-dark-theme {
     top: 2157px;
@@ -37,7 +37,7 @@ body {
 }
 .logo-light-theme {
     top: 24px;
-    color:var(--main-text-color)
+    color:var(--main-text-color);
 }
 /*===========Header================ */
 .header-bg {
@@ -120,7 +120,6 @@ body {
     height: 294px;
     left: 1015px;
     top: 1061px;
-
     background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
     }
 /*===========End About================ */
@@ -255,49 +254,49 @@ body {
     background: url(2910404.jpg);
 }
 .project-name {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color:var(--main-text-color)
+    color:var(--main-text-color);
 }
 .project-explanation {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
     font-size: 16px;
     line-height: 1,87;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
     }
 /*===========Work gallery================ */
 
 /*===========Advantages section================ */
 .advantage-name {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
     font-weight: bold;
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--main-text-color)
+    color: var(--main-text-color);
 }
 .advantage-explanation {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
 }
 /*===========End Advantages section================ */
 
 .body-title {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
     font-weight: bold;
     font-size: 36px;
     line-height: 1,16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-text-color)
+    color: var(--main-text-color);
 }
 /*===========Our team================ */
 .our-team-bg {
@@ -308,21 +307,21 @@ body {
     background-color: #F5F4FA;
 }
 .team-mate {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1,18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-text-color)
+    color: var(--main-text-color);
 }
 .job-position {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
     font-size: 16px;
     line-height: 1,18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
 }
 /*===========Footer================ */
 .footer-bg {
@@ -341,21 +340,21 @@ body {
     font-style: normal;
 }
 .physical-adress {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .mail-adress {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .phone-number {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
