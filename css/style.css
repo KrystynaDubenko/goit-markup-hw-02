@@ -1,10 +1,13 @@
 :root {
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
+    --main-text-color: #212121;
+    --secondary-text-color:#757575;
+    --focus-color:  #2196F3;
 }
 body {
     font-family: var(--main-font);
-    color: #757575;
+    color: var(--secondary-text-color)
     ;
 }
 
@@ -24,13 +27,13 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--focus-color )
     }
 .logo-dark-theme {
     color:#FFFFFF;
 }
 .logo-light-theme {
-    color:black;
+    color:var(--main-text-color)
 }
 /*===========Header================ */
 .header-bg {
@@ -42,7 +45,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color:var(--main-text-color)
 }
 .contact-link {
     font-family: var(--main-font)
@@ -50,22 +53,22 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: 
 }
 .contact-link:hover,
 .contact-link:focus {
-    color:#2196F3 ;
+    color:var(--focus-color ) ;
 }
 
 .im-here:hover,
 .im-here:focus {
-    color: #2196F3;
+    color: var(--focus-color );
 }
 .im-here:active {
-    color: #2196F3;
+    color: var(--focus-color );
 }
 .current {
-    color: #2196F3;
+    color: var(--focus-color );
 }
 /*===========End Header================ */
 
@@ -94,7 +97,7 @@ body {
     letter-spacing: 0.06em;
     cursor: pointer;
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--focus-color );
 }
 /*===========End Hero================ */
 
@@ -223,13 +226,13 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
-    color: #212121;
+    color: var(--main-text-color)
     background: #F5F4FA;
     border-radius: 4px;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    background-color: #2196F3;
+    background-color: var(--focus-color );
     color:#FFFFFF;
 }
 .work1 {
@@ -301,14 +304,14 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color:var(--main-text-color)
 }
 .project-explanation {
     font-family: var(--main-font)
     font-size: 16px;
     line-height: 1,87;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-text-color)
     }
 /*===========Work gallery================ */
 
@@ -320,14 +323,14 @@ body {
     line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--main-text-color)
 }
 .advantage-explanation {
     font-family: var(--main-font)
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-text-color)
 }
 /*===========End Advantages section================ */
 
@@ -338,7 +341,7 @@ body {
     line-height: 1,16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-text-color)
 }
 /*===========Our team================ */
 .team-mate {
@@ -348,7 +351,7 @@ body {
     line-height: 1,18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-text-color)
 }
 .job-position {
     font-family: var(--main-font)
@@ -356,7 +359,7 @@ body {
     line-height: 1,18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-text-color)
 }
 /*===========Footer================ */
 .footer-bg {
