@@ -125,6 +125,30 @@ body {
 /*===========End About================ */
 
 /*===========Our team================ */
+.our-team-bg {
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+    background-color: #F5F4FA;
+}
+.team-mate {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+.job-position {
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 1,18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
 .card {
     width: 270px;
     height: 368px;
@@ -297,31 +321,6 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-}
-/*===========Our team================ */
-.our-team-bg {
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
-    background-color: #F5F4FA;
-}
-.team-mate {
-    font-family: var(--main-font);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,18;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
-}
-.job-position {
-    font-family: var(--main-font);
-    font-size: 16px;
-    line-height: 1,18;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
 }
 /*===========Footer================ */
 .footer-bg {
