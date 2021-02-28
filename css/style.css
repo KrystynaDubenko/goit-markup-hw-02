@@ -7,8 +7,7 @@
 }
 body {
     font-family: var(--main-font);
-    color: var(--secondary-text-color)
-    ;
+    color: var(--secondary-text-color);
 }
 
 .link {
@@ -22,6 +21,9 @@ body {
 }
 
 .logo {
+    width: 145px;
+    height: 31px;
+    left: 215px;
     font-family: var(--secondary-font)
     font-weight: bold;
     font-size: 26px;
@@ -30,30 +32,24 @@ body {
     color: var(--focus-color )
     }
 .logo-dark-theme {
+    top: 2157px;
     color:#FFFFFF;
 }
 .logo-light-theme {
+    top: 24px;
     color:var(--main-text-color)
 }
 /*===========Header================ */
 .header-bg {
     background: #FFFFFF;
 }
-.navigation-link {
-    font-family: var(--main-font)
+.header-link {
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:var(--main-text-color)
-}
-.contact-link {
-    font-family: var(--main-font)
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: 
+    color:var(--main-text-color);
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -77,7 +73,7 @@ body {
     background: #2F303A;
 }
 .hero-title {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -87,7 +83,7 @@ body {
     color: #FFFFFF;
     }
 .main-button {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
@@ -98,6 +94,8 @@ body {
     cursor: pointer;
     color: #FFFFFF;
     background: var(--focus-color );
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 /*===========End Hero================ */
 
@@ -128,17 +126,17 @@ body {
 /*===========End About================ */
 
 /*===========Our team================ */
-.card-bg-1 {
+.card {
     width: 270px;
     height: 368px;
-    left: 215px;
     top: 1635px;
-
     background: #FFFFFF;
     /* material shadow v1 */
-
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+}
+.card-bg-1 {
+    left: 215px;
     }
 .ihor {
     width: 270px;
@@ -150,16 +148,7 @@ body {
     border-radius: 0px;
 }
 .card-bg-2 {
-    width: 270px;
-    height: 368px;
     left: 515px;
-    top: 1635px;
-
-    background: #FFFFFF;
-    /* material shadow v1 */
-
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
 }
 .olha {
     width: 270px;
@@ -171,16 +160,7 @@ body {
     border-radius: 0px;
 }
 .card-bg-3 {
-    width: 270px;
-    height: 368px;
     left: 815px;
-    top: 1635px;
-
-    background: #FFFFFF;
-    /* material shadow v1 */
-
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
 }
 .nikolaj {
     width: 270px;
@@ -192,16 +172,7 @@ body {
     border-radius: 0px;
 }
 .card-bg-4 {
-    width: 270px;
-    height: 368px;
     left: 1115px;
-    top: 1635px;
-
-    background: #FFFFFF;
-    /* material shadow v1 */
-
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
 }
 .michele {
     width: 270px;
@@ -219,15 +190,15 @@ body {
     box-sizing: border-box;
 }
 .portfolio-btn {
-    font-family: var(--main-font)
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
-    color: var(--main-text-color)
-    background: #F5F4FA;
+    color: var(--main-text-color);
+    background-color: #F5F4FA;
     border-radius: 4px;
 }
 .portfolio-btn:hover,
@@ -235,65 +206,50 @@ body {
     background-color: var(--focus-color );
     color:#FFFFFF;
 }
-.work1 {
+.gallery {
     width: 370px;
     height: 294px;
+}
+.work1 {
     left: 215px;
     top: 262px;
     background: url(portfolio1.jpg);
 }
 .work2 {
-    width: 370px;
-    height: 294px;
     left: 615px;
     top: 262px;
     background: url(portfolio2.jpg);
 }
 .work3 {
-    width: 370px;
-    height: 294px;
     left: 1015px;
     top: 262px;
     background: url(portfolio-1.jpg);
 }
 .work4 {
-    width: 370px;
-    height: 294px;
     left: 215px;
     top: 696px;
     background: url(portfolio-2.jpg);
 }
 .work5 {
-    width: 370px;
-    height: 294px;
     left: 615px;
     top: 696px;
     background: url(portfolio5.jpg);
 }
 .work6 {
-    width: 370px;
-    height: 294px;
     left: 1015px;
     top: 696px;
     background: url(111.jpg);
 }
 .work7 {
-    width: 370px;
-    height: 294px;
-    left: 215px;
     top: 1130px;
     background: url(portfolio7.jpg);
 }
 .work8 {
-    width: 370px;
-    height: 294px;
     left: 615px;
     top: 1130px;
     background: url(portfolio8.jpg);
 }
 .work9 {
-    width: 370px;
-    height: 294px;
     left: 1015px;
     top: 1130px;
     background: url(2910404.jpg);
@@ -344,6 +300,13 @@ body {
     color: var(--main-text-color)
 }
 /*===========Our team================ */
+.our-team-bg {
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+    background-color: #F5F4FA;
+}
 .team-mate {
     font-family: var(--main-font)
     font-weight: 500;
@@ -363,7 +326,19 @@ body {
 }
 /*===========Footer================ */
 .footer-bg {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
     background: #2F303A;
+}
+.index-footer {
+    top: 2097px;
+}
+.portfolio-footer {
+    top: 1628px;
+}
+.addres-font {
+    font-style: normal;
 }
 .physical-adress {
     font-family: var(--main-font)
