@@ -4,6 +4,10 @@
     --main-text-color: #212121;
     --secondary-text-color:#757575;
     --focus-color:  #2196F3;
+    --standart-color: #fff;
+    --team-bg-color: #F5F4FA; 
+    --footer-bg-color: #2F303A;
+    --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 body {
     font-family: var(--main-font);
@@ -33,7 +37,7 @@ body {
     }
 .logo-dark-theme {
     top: 2157px;
-    color:#FFFFFF;
+    color: var(--standart-color)
 }
 .logo-light-theme {
     top: 24px;
@@ -41,7 +45,7 @@ body {
 }
 /*===========Header================ */
 .header-bg {
-    background: #FFFFFF;
+    background: var(--standart-color)
 }
 .header-link {
     font-family: var(--main-font);
@@ -50,6 +54,10 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--main-text-color);
+}
+.contact-link {
+    color: var(--secondary-text-color)
+    ;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -70,7 +78,7 @@ body {
 
 /*===========Hero================ */
 .hero-bg {
-    background: #2F303A;
+    background: var(--footer-bg-color)
 }
 .hero-title {
     font-family: var(--main-font);
@@ -80,7 +88,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--standart-color)
     }
 .main-button {
     font-family: var(--main-font);
@@ -92,8 +100,8 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-    color: #FFFFFF;
-    background: var(--focus-color );
+    color: var(--standart-color)
+    backgroun: var(--focus-color );
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -103,40 +111,30 @@ body {
 .about1 {
     width: 370px;
     height: 294px;
-    left: 215px;
-    top: 1061px;
     background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
     mix-blend-mode: normal;
 }
 .about2 {
     width: 370px;
     height: 294px;
-    left: 615px;
-    top: 1061px;
     background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
     }
 .about3 {
     width: 370px;
     height: 294px;
-    left: 1015px;
-    top: 1061px;
     background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
     }
 /*===========End About================ */
 
 /*===========Our team================ */
 .our-team-bg {
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
-    background-color: #F5F4FA;
+    background-color: var(--team-bg-color)
 }
 .team-mate {
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
@@ -144,7 +142,7 @@ body {
 .job-position {
     font-family: var(--main-font);
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
@@ -152,63 +150,40 @@ body {
 .card {
     width: 270px;
     height: 368px;
-    top: 1635px;
-    background: #FFFFFF;
+    background: var(--standart-color)
     /* material shadow v1 */
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-.card-bg-1 {
-    left: 215px;
-    }
 .ihor {
     width: 270px;
     height: 260px;
-    left: 215px;
-    top: 1635px;
-
     background: url(4853.jpg);
     border-radius: 0px;
-}
-.card-bg-2 {
-    left: 515px;
 }
 .olha {
     width: 270px;
     height: 260px;
-    left: 515px;
-    top: 1635px;
-
     background: url(5844.jpg);
     border-radius: 0px;
-}
-.card-bg-3 {
-    left: 815px;
 }
 .nikolaj {
     width: 270px;
     height: 260px;
-    left: 815px;
-    top: 1635px;
-
     background: url(16166.jpg);
     border-radius: 0px;
-}
-.card-bg-4 {
-    left: 1115px;
 }
 .michele {
     width: 270px;
     height: 260px;
-    left: 1115px;
-    top: 1635px;
-
     background: url(2968.jpg);
     border-radius: 0px;
 }
-    /*===========Work gallery================ */
+/*===========End Our team================ */
+
+/*===========Work gallery================ */
 .buttom-bg {
-    background: #FFFFFF;
+    background: var(--standart-color)
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
@@ -221,60 +196,57 @@ body {
     letter-spacing: 0.03em;
     cursor: pointer;
     color: var(--main-text-color);
-    background-color: #F5F4FA;
+    background-color: var(--team-bg-color)
     border-radius: 4px;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
     background-color: var(--focus-color );
-    color:#FFFFFF;
-}
-.gallery {
-    width: 370px;
-    height: 294px;
+    color: var(--standart-color)
 }
 .work1 {
-    left: 215px;
-    top: 262px;
+    width: 370px;
+    height: 294px;
     background: url(portfolio1.jpg);
 }
 .work2 {
-    left: 615px;
-    top: 262px;
+    width: 370px;
+    height: 294px;
     background: url(portfolio2.jpg);
 }
 .work3 {
-    left: 1015px;
-    top: 262px;
+    width: 370px;
+    height: 294px;
     background: url(portfolio-1.jpg);
 }
 .work4 {
-    left: 215px;
-    top: 696px;
+    width: 370px;
+    height: 294px;
     background: url(portfolio-2.jpg);
 }
 .work5 {
-    left: 615px;
-    top: 696px;
+    width: 370px;
+    height: 294px;
     background: url(portfolio5.jpg);
 }
 .work6 {
-    left: 1015px;
-    top: 696px;
+    width: 370px;
+    height: 294px;
     background: url(111.jpg);
 }
 .work7 {
-    top: 1130px;
+    width: 370px;
+    height: 294px;
     background: url(portfolio7.jpg);
 }
 .work8 {
-    left: 615px;
-    top: 1130px;
+    width: 370px;
+    height: 294px;
     background: url(portfolio8.jpg);
 }
 .work9 {
-    left: 1015px;
-    top: 1130px;
+    width: 370px;
+    height: 294px;
     background: url(2910404.jpg);
 }
 .project-name {
@@ -288,7 +260,7 @@ body {
 .project-explanation {
     font-family: var(--main-font);
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
     }
@@ -299,7 +271,7 @@ body {
     font-family: var(--main-font);
     font-weight: bold;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-text-color);
@@ -307,7 +279,7 @@ body {
 .advantage-explanation {
     font-family: var(--main-font);
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
@@ -317,23 +289,17 @@ body {
     font-family: var(--main-font);
     font-weight: bold;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
+
 /*===========Footer================ */
 .footer-bg {
     width: 1600px;
     height: 252px;
-    left: 0px;
-    background: #2F303A;
-}
-.index-footer {
-    top: 2097px;
-}
-.portfolio-footer {
-    top: 1628px;
+    background: var(--footer-bg-color)
 }
 .addres-font {
     font-style: normal;
@@ -341,23 +307,23 @@ body {
 .physical-adress {
     font-family: var(--main-font);
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--standart-color)
 }
 .mail-adress {
     font-family: var(--main-font);
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-link-color)
 }
 .phone-number {
     font-family: var(--main-font);
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-link-color)
 }
 /*===========End Footer================ */
 
